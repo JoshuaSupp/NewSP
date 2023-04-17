@@ -10,6 +10,8 @@ import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Login from './pages/Login'
 import AddComment from './components/AddComment/AddComment';
+import Header from './components/Header/Header';
+import ViewComment from './components/ViewComment/ViewComment'
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -66,6 +68,8 @@ function App() {
             <Route path='/contact' element={<Contact />}></Route>
             <Route path='/login' element={<Login/>}> </Route>
             <Route path='/addcomment' element={<AddComment/>}></Route> 
+            <Route path='/header' element={<Header/>}></Route> 
+            <Route path='/viewcomment' element={<ViewComment/>}></Route> 
           </Routes>
         </div>
       </Router>

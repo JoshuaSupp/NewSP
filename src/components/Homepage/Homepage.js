@@ -41,7 +41,7 @@ function Home() {
 
           <Col md={7}>
            <div>
-           <h2 style={{marginLeft:'0%'}}>Check Out Meu Labs! </h2>
+           <h2 style={{marginLeft:'-4%'}}>Check Out Meu Labs! </h2>
            </div>
             <button onClick={() => {
               window.open("https://youtu.be/9VJZJJUxFr8");

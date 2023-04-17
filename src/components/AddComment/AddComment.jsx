@@ -3,6 +3,7 @@ import './AddComment.css'
 import {useParams, Link, useNavigate} from "react-router-dom"
 import axios from 'axios'
 import {toast} from 'react-toastify'
+import Header from '../Header/Header'
 
 const initialState = {
   comment: "",
@@ -76,7 +77,7 @@ const AddComment = () => {
 
   return (
     <div class='addadmin'>
-    
+    <Header/>
     <h1>Add Comment</h1>
         <br />
         <div class="description">

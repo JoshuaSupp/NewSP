@@ -1,6 +1,12 @@
 .commentbtn{
-    background-color: rgb(245, 162, 10);
+    background-color: rgb(255, 170, 95);
     margin-top: 10px;
     border-radius: 10px;
     text-decoration: bold;
+    width: 180px;
+    
+}
+
+.commentbtn:hover{
+    background-color: rgb(18, 135, 253);
 }

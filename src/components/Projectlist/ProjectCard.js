@@ -17,8 +17,11 @@ function ProjectCard(props) {
           View
         </Button>
         <button  className="commentbtn" onClick={() => {
-              window.open("/addcomment");
+              window.location.href ="/addcomment";
             }} >Add Comment</button>
+          <button  className="commentbtn" onClick={() => {
+              window.location.href ="/viewcomment";
+            }} >View Comment</button>
         {"\n"}
         {"\n"}
 
