@@ -74,7 +74,7 @@ function Header() {
 
           <Button
             onClick={() => {
-              window.open("/Login");
+              window.location.href = "/Login";
             }}
             className='resumebtn'><span>Log in</span>
           </Button>

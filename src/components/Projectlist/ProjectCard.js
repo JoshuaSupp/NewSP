@@ -7,9 +7,9 @@ import './ProjectCard.css'
 function ProjectCard(props) {
   return (
     <Card className="project-card-view">
+      <Card.Title style={{textAlign:'center',fontSize:'25px',textDecoration:'underline'}}>{props.title}</Card.Title>
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>

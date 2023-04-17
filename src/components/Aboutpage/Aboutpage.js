@@ -11,8 +11,9 @@ function Aboutpage() {
                     <Col md={7} >
                         <h3 className='aboutmetext'>About <span>Me</span></h3>
                         <p className='aboutdetails'>
-                        Hello, my name is Simon Minter and I am a 12-year-old amateur learner of front-end development and engineering. I have a passion for coding and creating websites and applications. Currently, I am enrolled in i Meu Labs, 
-                        a program that offers project-based learning for programming and engineering.
+                        Hello, my name is Simon Minter and I am a 12-year-old amateur learner of front-end development and engineering. I have a passion for coding and creating websites and applications. Currently,
+                         I am enrolled in Meu Labs, 
+                        a program that offers project-based learning for mostly programming and engineering.
                          I am taking their AN (Analytics) class, where I am honing my skills in front-end development and learning the fundamentals of engineering. 
                         </p>
                         <ul className='skilllist'>
